@@ -1,7 +1,7 @@
 ---
 title: "Solidity Code Audit"
 description: "Offering expert Solidity code auditing services to ensure the security and reliability of your smart contracts. Mitigate risks and identify vulnerabilities with our thorough and professional audit process."
-heroImage: "1.jpg"
+heroImage: "/1.jpg"
 ---
 
 As an experienced Solidity auditor, I provide comprehensive code auditing services to ensure the solidity and security of your smart contracts. With a deep understanding of blockchain technology and a keen eye for vulnerabilities, I help you navigate the complex landscape of decentralized applications.
