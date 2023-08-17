@@ -130,14 +130,6 @@ This compoenet is already included in the Store layout of the template. In case 
   title="Item Title"
   img="imge_url"
   desc="Item description"
-  pricing="current_price"
-  oldPricing="old_price"
-  checkoutUrl="external store checkout url"
-  badge="Optional badge"
-  url="item details url"
-  custom_link="Custom link url"
-  custom_link_label="Cutom link btn label"
-  target="Optional link target (_self default)"
 />
 ```
 
@@ -202,13 +194,6 @@ title: "Demo Item 1"
 description: "Item description"
 heroImage: "Item img url"
 details: true // show or hide details btn
-custom_link_label: "Custom btn link label"
-custom_link: "Custom btn link"
-pubDate: "Sep 15 2022"
-pricing: "$15"
-oldPricing: "$25.5"
-badge: "Featured"
-checkoutUrl: "https://checkouturl.com/"
 ---
 ```
 
