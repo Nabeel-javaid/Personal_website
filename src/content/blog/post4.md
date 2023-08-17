@@ -1,17 +1,25 @@
 ---
 title: "What Are Flash Loan Attacks and How to Prevent Them?"
 description: "Explore the key pitfalls that smart contract auditors must steer clear of. From overlooked code interactions to inadequate testing, this guide safeguards the integrity of blockchain systems."
-pubDate: "Aug 16 2022"
+pubDate: "Aug 18 2022"
 heroImage: "/flashLoan.webp"
 ---
 
-## Table of Contents
+## Table of Contents 
 
-1. [Overstudying](#mistake-1-overstudying)
-2. [Overemphasis on CTF’s](#mistake-2-overemphasis-on-ctfs)
-3. [Intimidation by Huge Codebases](#mistake-3-intimidation-by-huge-codebases)
-4. [Fear of Previously Audited Protocols](#mistake-4-fear-of-previously-audited-protocols)
-5. [Lack of Discipline](#mistake-5-lack-of-discipline)
+1. [What Is A Flash Loan Attack?](#what-is-a-flash-loan-attack)
+2. [Flash Loan Attack Explained](#flash-loan-attack-explained)
+3. [Examples](#examples)
+   - [Platypus Finance ($8.5 Million)](#platypus-finance-85-million)
+   - [Euler Finance ($196 Million)](#euler-finance-196-million)
+4. [How Can We Prevent Flash Loan Attacks?](#how-can-we-prevent-flash-loan-attacks)
+   - [Circuit Breakers](#circuit-breakers)
+   - [Risk Assessment and Monitoring](#risk-assessment-and-monitoring)
+   - [Secure Smart Contract Development](#secure-smart-contract-development)
+   - [Implement Time Delays](#implement-time-delays)
+   - [Code Audits](#code-audits)
+
+
 
 ## What Is A Flash Loan Attack?
 A Flash Loan Attack refers to an act where individuals exploit smart contracts under Decentralized Finance (DeFi) across the Ethereum network, making them vulnerable to unauthorized modifications or violations in the cryptocurrency market. Here, the attacker takes out a flash loan, uses the contract to manipulate market variables for their cause, makes a profit, and repays the loan within the same transaction.

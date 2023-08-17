@@ -1,7 +1,7 @@
 ---
 title: "Lending/Borrowing DeFi Attacks"
 description: "Dive into the vulnerabilities of DeFi lending/borrowing platforms. Learn about potential attacks, from collateral manipulation to unexpected inputs, and explore strategies to enhance security and protect investments."
-pubDate: "Aug 15 2023"
+pubDate: "Aug 13 2023"
 heroImage: "/image.webp"
 ---
 

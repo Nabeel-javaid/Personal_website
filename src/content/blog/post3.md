@@ -1,9 +1,22 @@
 ---
 title: "Most Common Smart Contract Vulnerabilities"
 description: "This overview outlines key vulnerabilities in blockchain-based smart contracts, including reentrancy attacks, integer problems, data mishandling, and weak access controls. Addressing these issues is vital for enhancing smart contract security in decentralized systems."
-pubDate: "Aug 15 2023"
+pubDate: "Aug 16 2023"
 heroImage: "/3.webp"
 ---
+
+
+## Table of Contents
+
+1. [Reentrancy attack](#reentrancy-attack)
+2. [Front-running](#front-running)
+3. [Integer overflow and underflow](#integer-overflow-and-underflow)
+4. [Simple logic error](#simple-logic-error)
+5. [Block gas limit vulnerability](#block-gas-limit-vulnerability)
+6. [Default visibility](#default-visibility)
+7. [Timestamp dependence](#timestamp-dependence)
+
+
 
 ## Reentrancy attack
 Reentrancy is one of the most iconic exploitable smart contract vulnerabilities. It occurs when a smart contract calls another smart contract in its code and, when the new call is finished, continues with execution. This action requires the vulnerable contract to submit an external call.
