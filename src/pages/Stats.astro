@@ -2,8 +2,9 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import HorizontalCard from "../components/HorizontalCard.astro";
 ---
+
 <style>
-  .report{
+  .report {
     color: blue; /* You can change the color to any color you prefer */
     text-decoration: underline; /* Underline the link to make it look like a typical hyperlink */
   }
@@ -74,7 +75,7 @@ import HorizontalCard from "../components/HorizontalCard.astro";
           <td>-</td>
           <td>1</td>
           <td>-</td>
-          <td>$68.58 </td>
+          <td>$68.58</td>
           <td>Solidity</td>
         </tr>
         <tr>
@@ -97,7 +98,13 @@ import HorizontalCard from "../components/HorizontalCard.astro";
           <td>Ironbank</td>
           <td>0</td>
           <td>4</td>
-          <td><a class="report" href="https://github.com/sherlock-audit/2023-05-ironbank-judging/blob/main/Audit_Report.pdf">Report</a></td>
+          <td
+            ><a
+              class="report"
+              href="https://github.com/sherlock-audit/2023-05-ironbank-judging/blob/main/Audit_Report.pdf"
+              >Report</a
+            ></td
+          >
           <td>$104.39</td>
           <td>Solidity</td>
         </tr>
@@ -122,7 +129,7 @@ import HorizontalCard from "../components/HorizontalCard.astro";
           <td>1</td>
           <td>1</td>
           <td>-</td>
-          <td>$197.20 </td>
+          <td>$197.20</td>
           <td>Solidity</td>
         </tr>
       </tbody>
@@ -149,110 +156,123 @@ import HorizontalCard from "../components/HorizontalCard.astro";
           <td>Asymmetry Finance</td>
           <td>2</td>
           <td>2</td>
-          <td><a class="report" href="https://code4rena.com/reports/2023-03-asymmetry">Report</a></td>
+          <td
+            ><a
+              class="report"
+              href="https://code4rena.com/reports/2023-03-asymmetry">Report</a
+            ></td
+          >
           <td>$85.96</td>
           <td>Solidity</td>
         </tr>
-          <td>Rubicon v2</td>
-          <td>4</td>
-          <td>2</td>
-          <td>-</td>
-          <td>$826.54</td>
-          <td>Solidity</td>
-        </tr>
-        <tr>
-          <td>Venus Protocol Isolated Pools</td>
-          <td>-</td>
-          <td>1</td>
-          <td><a class="report" href="https://code4rena.com/reports/2023-05-venus">Report</a></td>
-          <td>$732.00</td>
-          <td>Solidity</td>
-        </tr>
-        <tr>
-          <td>Maia DAO Ecosystem</td>
-          <td>-</td>
-          <td>2</td>
-          <td>-</td>
-          <td>$24.76</td>
-          <td>Solidity</td>
-        </tr>
-        <tr>
-          <td>Lybra Finance</td>
-          <td>-</td>
-          <td>1 (solo)</td>
-          <td>-</td>
-          <td>$1,444.45</td>
-          <td>Solidity</td>
-        </tr>
-        <tr>
-          <td>Amphora Protocol</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>Solidity</td>
-        </tr>
-        <tr>
-          <td>Arcade.xyz</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>Solidity</td>
-        </tr>
+        <td>Rubicon v2</td>
+        <td>4</td>
+        <td>2</td>
+        <td>-</td>
+        <td>$826.54</td>
+        <td>Solidity</td>
       </tbody>
-    </table>
-
-    <br />
-    <br />
-    <!-- ... CodeHawks table ... -->
-    <div class="text-center">
-      <h1><strong>CodeHawks</strong></h1>
-    </div>
-    <table class="table">
-      <thead>
-        <tr>
-          <th>Contest</th>
-          <th>High risk</th>
-          <th>Medium risk</th>
-          <th>Security report</th>
-          <th>Payout</th>
-          <th>Language</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Beedle</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>Solidity</td>
-        </tr>
-      </tbody>
-    </table>
-
-    <br />
-    <br />
-    <div class="text-center">
-      <h1 class="mb-4 font-weight-bold">Solo Issues</h1>
-    </div>
-    <ul class="list-unstyled">
-      <li>
-        <a class="report"
-          href="https://github.com/code-423n4/2023-06-lybra-findings/issues/484"
-          class="text-primary">Issue 1</a
+      <tr>
+        <td>Venus Protocol Isolated Pools</td>
+        <td>-</td>
+        <td>1</td>
+        <td
+          ><a class="report" href="https://code4rena.com/reports/2023-05-venus"
+            >Report</a
+          ></td
         >
-      </li>
-      <li>
-        <a class="report"
-          href="https://github.com/sherlock-audit/2023-04-hubble-exchange-judging/issues/234"
-          class="text-primary">Issue 2</a
-        >
-      </li>
-    </ul>
+        <td>$732.00</td>
+        <td>Solidity</td>
+      </tr>
+      <tr>
+        <td>Maia DAO Ecosystem</td>
+        <td>-</td>
+        <td>2</td>
+        <td>-</td>
+        <td>$24.76</td>
+        <td>Solidity</td>
+      </tr>
+      <tr>
+        <td>Lybra Finance</td>
+        <td>-</td>
+        <td>1 (solo)</td>
+        <td>-</td>
+        <td>$1,444.45</td>
+        <td>Solidity</td>
+      </tr>
+      <tr>
+        <td>Amphora Protocol</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>Solidity</td>
+      </tr>
+      <tr>
+        <td>Arcade.xyz</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>Solidity</td>
+      </tr>
+    </table>
   </div>
 
- 
-  </style>
+  <br />
+  <br />
+  <!-- ... CodeHawks table ... -->
+  <div class="text-center">
+    <h1><strong>CodeHawks</strong></h1>
+  </div>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Contest</th>
+        <th>High risk</th>
+        <th>Medium risk</th>
+        <th>Security report</th>
+        <th>Payout</th>
+        <th>Language</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Beedle</td>
+        <td>4</td>
+        <td>3</td>
+        <td
+          ><a
+            class="report"
+            href="https://www.codehawks.com/report/clkbo1fa20009jr08nyyf9wbx"
+            >Report</a
+          ></td
+        >
+        <td>$396</td>
+        <td>Solidity</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <br />
+  <br />
+  <div class="text-center">
+    <h1 class="mb-4 font-weight-bold">Solo Issues</h1>
+  </div>
+  <ul class="list-unstyled">
+    <li>
+      <a
+        class="report"
+        href="https://github.com/code-423n4/2023-06-lybra-findings/issues/484"
+        class="text-primary">Issue 1</a
+      >
+    </li>
+    <li>
+      <a
+        class="report"
+        href="https://github.com/sherlock-audit/2023-04-hubble-exchange-judging/issues/234"
+        class="text-primary">Issue 2</a
+      >
+    </li>
+  </ul>
 </BaseLayout>
