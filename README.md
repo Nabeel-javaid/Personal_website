@@ -6,7 +6,7 @@ Astrofy is a free and open-source template for your Personal Portfolio Website b
 
 ## Demo
 
-View a live demo at [here]()
+View a live demo at [here](https://0xepley.netlify.app/)
 
 ## Installation
 
